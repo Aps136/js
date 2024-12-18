@@ -11,5 +11,5 @@ const element = document.querySelector('.myClass');
 const elements = document.querySelectorAll('.myClass');
 
 # Modifying DOM content
-##Modify Text
+## Modify Text
 element.textContent = 'New Text';
