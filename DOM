@@ -1,16 +1,15 @@
-#DOM
-##By ID
+# DOM
+## By ID
 const element = document.getElementById('myId');
-##By Class
+## By Class
 const elements = document.getElementsByClassName('myClass');
-##By TagName
+## By TagName
 const elements = document.getElementsByTagName('div');
-##Single element
+## Single element
 const element = document.querySelector('.myClass');
-##All matching elements
+## All matching elements
 const elements = document.querySelectorAll('.myClass');
 
-#Modifying DOM content
+# Modifying DOM content
 ##Modify Text
 element.textContent = 'New Text';
-##
