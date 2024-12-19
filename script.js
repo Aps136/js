@@ -18,13 +18,13 @@ document.addEventListener("DOMContentLoaded", () => {
     ];
 
     const resetGame = () => {
-        turn0 = true; // Reset to player O's turn
-        gameOver = false; // Allow gameplay again
+        turn0 = true; 
+        gameOver = false; 
         for (let box of boxes) {
-            box.innerText = ""; // Clear box content
-            box.disabled = false; // Enable box for clicking
+            box.innerText = ""; 
+            box.disabled = false; 
         }
-        msgcontainer.classList.add("hide"); // Hide message container
+        msgcontainer.classList.add("hide");
         console.log("Game has been reset.");
     };
 
